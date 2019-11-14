@@ -19,16 +19,3 @@ if arr[0] == arr[-1]:
 else:
     print('False')
 
-n = int(input('Input the length of your array: '))
-if n < 1:
-    print('Length must be more then 0')
-
-arr2 = []
-for i in range(n):
-    arr2.append(int(input('Input an integer element of array: ')))
-
-if arr2[0] == arr2[-1]:
-    print('True')
-else:
-    print('False')
-
