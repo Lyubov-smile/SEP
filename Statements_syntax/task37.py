@@ -10,8 +10,8 @@ for i in range(row):
         el = int(input("Insert element: "))
         arr[i].append(el)
 
-n = int(input('Input the first value of row between o and '+str(col)+': '))
-m = int(input('Input the second value of row between o and '+str(col)+': '))
+n = int(input('Input the first value of row between 0 and %s: ' % str(col)))
+m = int(input('Input the second value of row between 0 and '+str(col)+': '))
 
 print('The two-dimensional array of order '+str(row)+' and '+str(col)+' is: ')
 for i in arr:
@@ -27,3 +27,4 @@ for i in range(row):
 print('The array with changed columns is: ')
 for i in arr_new:
     print(i)
+
