@@ -18,4 +18,3 @@ if arr[0] == arr[-1]:
     print('True')
 else:
     print('False')
-
