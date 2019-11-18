@@ -1,0 +1,2 @@
+# 41. Write a Python program to check three given integers x, y, z and return true if one of y or z is close
+# (differing from a by at most 1), while the other is far, differing from both other values by 3 or more. 
