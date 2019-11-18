@@ -10,13 +10,9 @@ arr = []
 for i in range(n):
     arr.append(int(input('Input an integer element of array: ')))
 
-print('2 random elements from the array.')
-print(random.sample(arr, 2))
-print('3 random elements from the array.')
-print(random.sample(arr, 3))
-
 #print('2 random elements from the array.')
 #print(random.choices(arr, k=2))
 #print('3 random elements from the array.')
 #print(random.choices(arr, k=3))
 #random.shuffle() -> mix the list
+
