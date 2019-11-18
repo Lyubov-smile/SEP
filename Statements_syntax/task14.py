@@ -10,4 +10,5 @@ for i in range(n):
 
 if arr.count(3) == 2 or arr.count(5) == 2:
     print('Array of integers contains 3 or 5 twice')
-
+else:
+    print('Array of integers doesn\'t contains 3 or 5 twice')

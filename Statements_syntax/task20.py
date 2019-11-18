@@ -18,3 +18,21 @@ s = sum(arr)
 print(arr)
 
 print('The sum is', s)
+
+
+
+
+
+
+# arr [1, 2, 17, 3, 4, 17, 5, 6] it doesn't work
+arr_new = arr.copy()
+for i in range(n):
+    ni = arr_new.index(17)
+    if i == ni:
+        arr_new.pop(i)
+        arr_new.pop(i)
+        i += 2
+        ni = arr_new.index(17)
+
+
+print('The sum is', sum(arr_new))
