@@ -8,4 +8,6 @@ print(s[0:2] == 'if')
 #else:
 #    print('The string doesn\'t starts with "if".')
 
-
+#   written from commit
+result = s.startswith('if')
+print(result)

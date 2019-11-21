@@ -20,3 +20,13 @@ else:
 #     print('False')
 
 # print(bool((1 <= a <= 10) or (1 <= b <= 10) or (1 <= c <= 10)))
+
+#   written from commit
+#if a in range(1,11):
+#    print('true')
+#elif b in range(1,11):
+#    print('true')
+#elif c in range(1,11):
+#    print('true')
+#else:
+#    print('False')
