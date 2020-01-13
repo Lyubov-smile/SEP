@@ -1,4 +1,5 @@
 # 3 Даний текст. Здійснити в цьому тексті пошук і заміну заданої фрази.
+# The second attempt
 
 def phrase_replase(string, old_phrase, new_phrase):
     return string.replace(old_phrase, new_phrase)
