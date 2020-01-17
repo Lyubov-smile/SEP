@@ -78,4 +78,40 @@ for i in range(qty_train):
 # print(train1.qty_of_passenger())
 
 
+def max_train_person():
+    qty_person = []
+    for i in range(qty_train):
+        s = 0
+        for j in range(trains[i][2]):
+            s += trains[i].wagon[i]
+        qty_person.append(s)
+    max_qty = qty_person[0]
+    n = 0
+    for k in range(1, qty_train):
+        if qty_person[k] > max_qty:
+            max_qty = qty_person[k]
+            n = k
+    return 'Train number ' + 'trains[n][0]' + trains[n][1] + 'has maximum qty of passenger ' + 'max_qty'
+
+def min_train_person():
+    qty_person = []
+    for i in range(qty_train):
+        s = 0
+        for j in range(trains[i][2]):
+            s += trains[i].wagon[i]
+        qty_person.append(s)
+    min_qty = qty_person[0]
+    n = 0
+    for k in range(1, qty_train):
+        if qty_person[k] < min_qty:
+            min_qty = qty_person[k]
+            n = k
+    return 'Train number ' + 'trains[n][0]' + trains[n][1] + 'has minimum qty of passenger ' + 'min_qty'
+
+
+'''
+if __name__ == "__main__":
+    # execute only if run as a script
+    main()
+'''
 
